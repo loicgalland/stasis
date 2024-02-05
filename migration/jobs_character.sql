@@ -1,0 +1,4 @@
+CREATE TABLE jobs_character (
+    id INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
+    level INT NOT NULL DEFAULT 0
+);
