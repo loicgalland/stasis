@@ -1,4 +1,5 @@
 CREATE TABLE job (
     id INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
-    name VARCHAR(45) NOT NULL
+    name VARCHAR(45) NOT NULL,
+    jobs_character_id INT NOT NULL FOREIGN KEY REFERENCES jobs_character(id)
 );

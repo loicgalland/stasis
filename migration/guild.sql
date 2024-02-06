@@ -1,4 +1,5 @@
 CREATE TABLE guild (
     id INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
-    name VARCHAR(45) NOT NULL
+    name VARCHAR(45) NOT NULL,
+    character_id INT NOT NULL FOREIGN KEY REFERENCES character(id)
 );

@@ -5,4 +5,5 @@ CREATE TABLE build (
     level INT NOT NULL,
     spell_code VARCHAR(45),
     comment CHAR(),
+    character_id INT NOT NULL FOREIGN KEY REFERENCES character(id)
 );

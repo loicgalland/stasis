@@ -1,4 +1,5 @@
 CREATE TABLE jobs_character (
     id INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
-    level INT NOT NULL DEFAULT 0
+    level INT NOT NULL DEFAULT 0,
+    character_id INT NOT NULL FOREIGN KEY REFERENCES character(id)
 );
