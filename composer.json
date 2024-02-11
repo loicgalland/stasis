@@ -1,0 +1,17 @@
+{
+    "name": "loicgalland/stasis",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "loicgalland",
+            "email": "loicgalland1@gmail.com"
+        }
+    ],
+    "require": {
+        "ext-pdo": "*"
+    }
+}
