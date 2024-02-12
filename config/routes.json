@@ -1,0 +1,32 @@
+{
+  "/classes": {
+    "controller": "Class",
+    "function": "findAll",
+    "method": "GET"
+  },
+  "/users": {
+    "controller": "User",
+    "function": "findAll",
+    "method": "GET"
+  },
+  "/guilds": {
+    "controller": "Guild",
+    "function": "findAll",
+    "method": "GET"
+  },
+  "/characters": {
+    "controller": "Character",
+    "function": "findAll",
+    "method": "GET"
+  },
+  "/builds": {
+    "controller": "Build",
+    "function": "findAll",
+    "method": "GET"
+  },
+  "/dungeons_character": {
+    "controller": "DungeonCharacter",
+    "function": "findAll",
+    "method": "GET"
+  }
+}

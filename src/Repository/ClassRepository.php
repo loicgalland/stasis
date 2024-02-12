@@ -4,10 +4,10 @@ namespace App\Repository;
 
 use App\Framework\Repository\AbstractRepository;
 
-class GuildRepository extends AbstractRepository
+class ClassRepository extends AbstractRepository
 {
     public function getAll(): array
     {
-        return $this->bddConnection->q("SELECT * FROM guild");
+        return $this->bddConnection->q("SELECT * FROM class");
     }
 }
