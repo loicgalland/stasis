@@ -1,0 +1,7 @@
+CREATE TABLE character(
+    id INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
+    name VARCHAR(45) NOT NULL,
+    level INT NOT NULL DEFAULT 0,
+    user_id INT NOT NULL FOREIGN KEY REFERENCES user(id),
+    character_class_id INT NOT NULL FOREIGN KEY REFERENCES character_class(id)
+)
