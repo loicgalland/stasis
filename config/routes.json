@@ -28,5 +28,30 @@
     "controller": "DungeonCharacter",
     "function": "findAll",
     "method": "GET"
+  },
+  "/dungeons": {
+    "controller": "Dungeon",
+    "function": "findAll",
+    "method": "GET"
+  },
+  "/jobs": {
+    "controller": "Job",
+    "function": "findAll",
+    "method": "GET"
+  },
+  "/jobs_character": {
+    "controller": "JobCharacter",
+    "function": "findAll",
+    "method": "GET"
+  },
+  "/specials_craft": {
+    "controller": "SpecialCraft",
+    "function": "findAll",
+    "method": "GET"
+  },
+  "/ingredients": {
+    "controller": "Ingredient",
+    "function": "findAll",
+    "method": "GET"
   }
 }

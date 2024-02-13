@@ -40,6 +40,4 @@ class JsonResponse
         $this->status = $status;
         return $this;
     }
-
-
 }

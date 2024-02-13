@@ -57,5 +57,4 @@ class BddConnection
         $stmt->closeCursor();
         $stmt = NULL;
     }
-
 }
