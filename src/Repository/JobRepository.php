@@ -2,6 +2,8 @@
 
 namespace App\Repository;
 
+use App\Framework\Repository\AbstractRepository;
+
 class JobRepository extends AbstractRepository
 {
     public function getAll(): array

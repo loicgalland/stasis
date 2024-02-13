@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Repository;
+namespace App\Framework\Repository;
 
 use PDO;
 use PDOException;
@@ -12,7 +12,7 @@ class BddConnection
     private $login;
     private $pass;
 
-    public function __construct($db, string $login = 'root', string $pass = '')
+    public function __construct(string $db, string $login = 'root', string $pass = '')
     {
         $this->db = $db;
         $this->login = $login;
@@ -57,5 +57,4 @@ class BddConnection
         $stmt->closeCursor();
         $stmt = NULL;
     }
-
 }

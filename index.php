@@ -1,6 +1,6 @@
 <?php
 
-use App\Repository\GuildRepository;
+use App\Framework\Router\Router;
 
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
@@ -8,10 +8,8 @@ error_reporting(E_ALL);
 
 require 'vendor/autoload.php';
 
-$guildRepository = new GuildRepository();
 
-$guildes = $guildRepository->getAll();
+$projectDirectory = dirname(__FILE__);
 
-foreach ($guildes as $guild) {
-    echo $guild->name;
-}
+$router = new Router($projectDirectory);
+$router->resolve();

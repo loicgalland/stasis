@@ -1,6 +1,7 @@
 <?php
 
-namespace App\Repository;
+namespace App\Framework\Repository;
+
 abstract class AbstractRepository
 {
     protected $bddConnection;
